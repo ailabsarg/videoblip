@@ -13,9 +13,7 @@ VideoBlip is a script that aims to extract text from videos. It does so by extra
 1. First, make a copy of this notebook to replace the API key in the code.
 2. Go to File, Save a copy in Drive.
 3. Change the `YOUR_API_KEY` to your OpenAI API key.
-4. Install the necessary dependencies by running `!pip install -r requirements.txt` in the notebook.
-5. Configure the input and output directories.
-6. Run the script and wait for the processing to finish.
+4. Run the script cell bt cell and wait for the processing to finish.
 
 ## Hardware Configuration
 
