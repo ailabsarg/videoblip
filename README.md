@@ -6,7 +6,7 @@ Video Action Recognition using Blip and GPT-3
 
 # VideoBlip
 
-VideoBlip is a video recognition script that aims to extract text from videos. It does so by extracting 5 frames from a video, passing them through the Blip recognition model, which identifies the contents of those frames, and sending those 5 predictions to GPT-3 to generate a text description of what is happening in the video. The script allows you to upload as many files as you want at once. It could be used as a natural language metadata generator or to generate huge datasets of videos aligned with a description. But the core function of the script is to convert video content into text descriptions.
+VideoBlip is a script that generates natural language descriptions from videos. It does so by extracting 5 frames from a video, passing them through the Blip recognition model, which identifies the contents of those frames, and sending those 5 predictions to GPT-3 to generate a text description of what is happening in the video. The script allows you to upload as many files as you want at once. It could be used as a natural language metadata generator or to generate huge datasets of videos aligned with a description. But the core function of the script is to convert video content into text descriptions.
 
 ## Usage
 
