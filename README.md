@@ -4,24 +4,32 @@ Video Action Recognition using Blip and GPT-3
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LaIgr5L0QAD2EMVSy3GiPp_XKypa0wAD?usp=sharing)
 
 
-VideoBlip
-VideoBlip is a Google Colab script that allows you to upload multiple video files and attempts to recognize the contents of the videos using a combination of computer vision and natural language processing.
+# VideoBlip
 
-First, VideoBlip extracts 5 frames from each video and passes them through a BLIP recognition model to generate 5 predictions. It then sends these predictions to GPT-3 and asks it to "guess" what the video is about.
+VideoBlip is a script that aims to extract text from videos. It does so by extracting 5 frames from a video, passing them through the Blip recognition model, sending those 5 predictions to GPT-3, and asking it to "guess" what the video is about. The good thing is that you can upload as many files as you want at once. It could be used as a natural language metadata generator, or it could be used to generate huge datasets of videos aligned with a description. But the script itself is a Google Colab notebook that does just that.
 
-The script is designed to handle multiple video files simultaneously, making it useful for generating large datasets of videos aligned with natural language descriptions.
+## Usage
 
-Note: Before running the script, you need to make a copy of the Colab notebook and replace the API key in the code with your own.
+1. First, make a copy of this notebook to replace the API key in the code.
+2. Go to File, Save a copy in Drive.
+3. Change the `YOUR_API_KEY` to your OpenAI API key.
+4. Install the necessary dependencies by running `!pip install -r requirements.txt` in the notebook.
+5. Configure the input and output directories.
+6. Run the script and wait for the processing to finish.
 
-Installation
-To use VideoBlip, you will need to have access to a Google Colab account. Once you have created a copy of the notebook, simply follow the instructions in the code to upload your video files and run the script.
+## Hardware Configuration
 
-Usage
-VideoBlip can be used for a variety of applications, including:
+The script requires a machine with a GPU for optimal performance. If you don't have a GPU, you can still run the script, but it may take significantly longer to complete.
 
-Generating natural language metadata for videos
-Creating large datasets of videos aligned with natural language descriptions
-To use VideoBlip, simply upload your video files to the specified directory and run the script. The output will be a text file containing the predicted descriptions for each video.
+## Example
 
-Hardware requirements
-VideoBlip requires a computer with a graphics processing unit (GPU) to run efficiently. Please make sure that your hardware meets the minimum requirements before running the script.
+Check out an example of the script in action [here](https://colab.research.google.com/drive/1LaIgr5L0QAD2EMVSy3GiPp_XKypa0wAD?usp=sharing).
+
+## Contributing
+
+Feel free to contribute to this project by opening issues or submitting pull requests.
+
+## License
+
+This project is licensed under the [MIT license](https://github.com/ivfloyd/videoblip/blob/main/LICENSE).
+
