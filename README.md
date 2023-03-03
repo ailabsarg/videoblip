@@ -23,9 +23,9 @@ The script requires a machine with a GPU for optimal performance. If you don't h
 
 Check out an example of the script in action [here](https://colab.research.google.com/drive/1LaIgr5L0QAD2EMVSy3GiPp_XKypa0wAD?usp=sharing).
 
-## Contributing
+## Contributions are welcome!
 
-Feel free to contribute to this project by opening issues or submitting pull requests.
+We're excited to have you contribute! Feel free to fork the repository, add new features, and submit pull requests. Let's make VideoBlip better together!
 
 ## License
 
