@@ -13,8 +13,8 @@ VideoBlip is a script that generates natural language descriptions from videos. 
 
 1. First, make a copy of this notebook to replace the API key in the code.
 2. Go to File, Save a copy in Drive.
-3. Change the `YOUR_API_KEY` to your OpenAI API key.
-4. Run the script cell bt cell and wait for the processing to finish.
+3. Change `YOUR_API_KEY` to your actual OpenAI API key.
+4. Run the script cell by cell and wait for the processing to finish.
 
 ## Hardware Configuration
 
@@ -23,6 +23,8 @@ The script requires a machine with a GPU for optimal performance. If you don't h
 ## Example
 
 Check out an example of the script in action [here](https://colab.research.google.com/drive/1LaIgr5L0QAD2EMVSy3GiPp_XKypa0wAD?usp=sharing).
+
+## Architecture
 ![VideoBlip (2)](https://user-images.githubusercontent.com/113161118/224814780-de7232a9-6e6f-4dc5-82f0-d1fc7a96cf97.jpg)
 ## Contributions are welcome!
 
